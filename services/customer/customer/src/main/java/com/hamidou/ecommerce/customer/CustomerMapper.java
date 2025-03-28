@@ -1,4 +1,4 @@
-package com.hamidou.customer.customer;
+package com.hamidou.ecommerce.customer;
 
 import org.springframework.stereotype.Service;
 

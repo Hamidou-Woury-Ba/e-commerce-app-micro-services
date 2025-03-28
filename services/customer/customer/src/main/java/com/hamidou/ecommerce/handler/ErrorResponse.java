@@ -1,4 +1,4 @@
-package com.hamidou.customer.handler;
+package com.hamidou.ecommerce.handler;
 
 import java.util.Map;
 

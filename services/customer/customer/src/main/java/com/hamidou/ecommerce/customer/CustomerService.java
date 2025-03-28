@@ -1,9 +1,8 @@
-package com.hamidou.customer.customer;
+package com.hamidou.ecommerce.customer;
 
-import com.hamidou.customer.exception.CustomerNotFoundException;
+import com.hamidou.ecommerce.exception.CustomerNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.apache.commons.lang.StringUtils;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

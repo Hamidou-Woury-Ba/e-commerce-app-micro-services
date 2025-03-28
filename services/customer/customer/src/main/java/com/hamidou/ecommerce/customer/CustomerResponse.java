@@ -1,7 +1,4 @@
-package com.hamidou.customer.customer;
-
-import jakarta.validation.constraints.Email;
-import jakarta.validation.constraints.NotNull;
+package com.hamidou.ecommerce.customer;
 
 public record CustomerResponse(
         String id,

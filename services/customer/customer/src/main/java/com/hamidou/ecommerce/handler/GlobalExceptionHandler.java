@@ -1,6 +1,6 @@
-package com.hamidou.customer.handler;
+package com.hamidou.ecommerce.handler;
 
-import com.hamidou.customer.exception.CustomerNotFoundException;
+import com.hamidou.ecommerce.exception.CustomerNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.FieldError;
