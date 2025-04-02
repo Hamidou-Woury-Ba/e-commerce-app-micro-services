@@ -1,4 +1,4 @@
-package com.hamidou.product;
+package com.hamidou.ecommerce;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
