@@ -25,9 +25,6 @@ public class ProductService {
 
     }
 
-    public void updateProduct(@Valid ProductRequest request) {
-    }
-
     public List<ProductPurchaseResponse> purchaseProducts(List<ProductPurchaseRequest> request) {
 
         var productIds = request
