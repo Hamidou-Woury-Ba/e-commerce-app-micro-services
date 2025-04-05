@@ -1,15 +1,18 @@
-package com.hamidou.ecommerce.product;
+package com.hamidou.ecommerce.orderline;
 
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;
 
-public record PurchaseRequest(
+public record OrderLineRequest(
+
+        Integer id,
+
+        Integer orderId,
 
         @NotNull(message = "Product is mandatory")
         Integer productId,
 
         @Positive(message = "Quantity is mandatory")
         double quantity
-
 ) {
 }

@@ -16,7 +16,7 @@ public class OrderLine {
     @GeneratedValue
     private Integer id;
 
-    @OneToMany
+    @ManyToOne
     @JoinColumn(name = "order_id")
     private Order order;
 
