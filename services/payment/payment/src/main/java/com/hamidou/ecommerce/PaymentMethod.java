@@ -1,4 +1,4 @@
-package com.hamidou.payment;
+package com.hamidou.ecommerce;
 
 public enum PaymentMethod {
 

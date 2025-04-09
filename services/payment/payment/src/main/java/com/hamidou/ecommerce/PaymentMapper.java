@@ -1,4 +1,4 @@
-package com.hamidou.payment;
+package com.hamidou.ecommerce;
 
 import jakarta.validation.Valid;
 import org.springframework.stereotype.Service;

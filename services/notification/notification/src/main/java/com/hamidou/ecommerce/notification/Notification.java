@@ -5,7 +5,6 @@ import com.hamidou.ecommerce.kafka.payment.PaymentConfirmation;
 import lombok.*;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
-import org.springframework.data.mongodb.repository.MongoRepository;
 
 import java.time.LocalDateTime;
 
@@ -28,6 +27,4 @@ public class Notification {
 
     private PaymentConfirmation paymentConfirmation;
 
-    public static interface NotificationRepository extends MongoRepository<PaymentConfirmation, String> {
-    }
 }

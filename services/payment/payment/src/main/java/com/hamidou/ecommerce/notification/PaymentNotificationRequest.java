@@ -1,6 +1,6 @@
-package com.hamidou.payment.notification;
+package com.hamidou.ecommerce.notification;
 
-import com.hamidou.payment.PaymentMethod;
+import com.hamidou.ecommerce.PaymentMethod;
 
 import java.math.BigDecimal;
 

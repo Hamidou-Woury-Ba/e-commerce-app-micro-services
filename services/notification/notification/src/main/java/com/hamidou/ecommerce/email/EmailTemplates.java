@@ -2,6 +2,7 @@ package com.hamidou.ecommerce.email;
 
 import lombok.Getter;
 
+//Enumération qui permet de centraliser les informations des templates d'email.
 public enum EmailTemplates {
 
     PAYMENT_CONFIRMATION("payment-confirmation.html", "Payment successfully processed"),

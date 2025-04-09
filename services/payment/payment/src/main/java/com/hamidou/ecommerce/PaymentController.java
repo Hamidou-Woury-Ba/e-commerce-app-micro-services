@@ -1,8 +1,9 @@
-package com.hamidou.payment;
+package com.hamidou.ecommerce;
 
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -14,6 +15,7 @@ public class PaymentController {
 
     private final PaymentService service;
 
+    @PostMapping
     public ResponseEntity<Integer> createPayment(
             @RequestBody @Valid PaymentRequest request
     ){

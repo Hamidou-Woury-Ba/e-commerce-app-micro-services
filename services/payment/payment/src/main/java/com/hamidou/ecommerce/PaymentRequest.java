@@ -1,4 +1,4 @@
-package com.hamidou.payment;
+package com.hamidou.ecommerce;
 
 import java.math.BigDecimal;
 

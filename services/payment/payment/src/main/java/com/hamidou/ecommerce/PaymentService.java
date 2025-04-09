@@ -1,7 +1,7 @@
-package com.hamidou.payment;
+package com.hamidou.ecommerce;
 
-import com.hamidou.payment.notification.NotificationProducer;
-import com.hamidou.payment.notification.PaymentNotificationRequest;
+import com.hamidou.ecommerce.notification.NotificationProducer;
+import com.hamidou.ecommerce.notification.PaymentNotificationRequest;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -18,9 +18,9 @@ public class PaymentService {
 
     public Integer createPayment(@Valid PaymentRequest request) {
 
-        var payment = repository.save(mapper.toPayment(request));
+        var payment = this.repository.save(mapper.toPayment(request));
 
-        notificationProducer.sendNotification(
+        this.notificationProducer.sendNotification(
                 new PaymentNotificationRequest(
                         request.orderReference(),
                         request.amount(),
